@@ -12,7 +12,7 @@ export function Main() {
   const [error, setError] = useState(null);
 
   // Assuming you have a variable for the API URL in your environment
-  const API_URL = "https://cb81-190-105-161-2.ngrok-free.app/search/"; // Replace with your actual URL
+  const API_URL = "https://614c-190-105-161-2.ngrok-free.app/search"; // Replace with your actual URL
 
   const handleSubmit = async (e) => {
     e.preventDefault();
